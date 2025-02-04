@@ -35,7 +35,7 @@
                 </thead>
                 <tbody>
                     @foreach ($admins as $admin)
-                        <tr>
+                        <tr> 
                             <td class="text-center">{{ $admin->id }}</td>
                             <td class="text-center">{{ $admin->name }}</td>
                             <td class="text-center">{{ $admin->description }}</td>
