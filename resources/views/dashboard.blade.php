@@ -12,7 +12,7 @@
       <h1 class="text-3xl text-danger font-weight-bold">Product List</h1>
       <div class="text-center"><a href="/product/create" class="btn btn-success">Add New</a></div>
       
-  </div>
+  </div> 
 
   <!-- Success Message -->
   @if (session('success'))
